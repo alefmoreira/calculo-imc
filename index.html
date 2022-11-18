@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calcule seu IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Cálculo IMC</h1>
+    <p>
+      O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. 
+      É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).
+    </p>
+    <p>
+      Informe seu PESO e sua ALTURA nos campos abaixo.
+    </p>
+
+    <form  class="form " action="">
+
+      <label for = "input-peso">Peso (kg)</label>
+      <input type = "text" id="peso">
+
+      <label for = "input-altura">Altura (metro e cm)</label>
+      <input type = "text" id="altura">
+
+      <button type="submit">Enviar</button>
+
+
+    </form>
+    <div class="resultado"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
